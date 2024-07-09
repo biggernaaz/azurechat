@@ -191,7 +191,7 @@ resource webApp 'Microsoft.Web/sites@2020-06-01' = {
         }
         {
           name: 'NEXTAUTH_URL'
-          value: 'https://agii.dev'
+          value: 'https://${webapp_name}.azurewebsites.net'
         }
         {
           name: 'AZURE_COSMOSDB_URI'
